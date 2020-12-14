@@ -5,10 +5,8 @@ openMenu.addEventListener('click', show);
 
 function show() {
     if (mainMenu.style.display === 'none') {
-        mainMenu.style.display = 'flex'
-        openMenu.style.marginTop = '0px'
+        mainMenu.style.display = 'block'
     } else {
-        mainMenu.style.display = 'none';
-        openMenu.style.marginTop = '30px'
+        mainMenu.style.display = 'none'
     }
 }

@@ -11,14 +11,17 @@ body {
 }
 
 .principal-div nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 50px 10px 50px;
+    display: block;
+}
+
+.principal-div nav ul {
+    padding: 0;
+    margin: 20px 50px 10px 30px;
 }
 
 .principal-div nav img{
     width: 20px;
+    margin: 20px 50px 10px 50px;
 }
 
 .nav-list {
@@ -300,6 +303,15 @@ body {
 @media screen and (min-width: 480px) {
     .principal-div {
         height: 800px;
+    }
+    .principal-div nav img{
+        display: none;
+    }
+    .principal-div nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 50px 10px 50px;
     }
     .nav-list {
         display: flex;
