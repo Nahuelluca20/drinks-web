@@ -11,18 +11,18 @@ body {
 }
 
 .principal-div nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 50px 10px 50px;
+    margin: 0px 50px 10px 10px;
 }
 
 .principal-div nav img{
     width: 20px;
+    margin: 10px 18px;
 }
 
-.principal-div nav ul {
-    list-style: none;             
+.nav-list {
+    list-style: none; 
+    padding: 0%;        
+    display: none;    
 }
 
 .principal-div nav ul li {
@@ -300,6 +300,11 @@ body {
     .principal-div {
         height: 800px;
     }
+    .principal-div nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .principal-div nav ul {
         display: flex;           
     }
@@ -337,5 +342,8 @@ body {
     }
     .second-div nav {
         flex-wrap: nowrap;
+    }
+    .menu-icon {
+        display: none;
     }
 }
