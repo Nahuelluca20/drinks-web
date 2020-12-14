@@ -21,8 +21,9 @@ body {
     width: 20px;
 }
 
-.principal-div nav ul {
-    list-style: none;             
+.nav-list {
+    list-style: none;   
+    display: none;          
 }
 
 .principal-div nav ul li {
@@ -299,6 +300,9 @@ body {
 @media screen and (min-width: 480px) {
     .principal-div {
         height: 800px;
+    }
+    .nav-list {
+        display: flex;
     }
     .principal-div nav ul {
         display: flex;           
