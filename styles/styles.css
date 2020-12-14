@@ -11,18 +11,22 @@ body {
 }
 
 .principal-div nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 50px 10px 50px;
+    display: block;
+}
+
+.principal-div nav ul {
+    padding: 0;
+    margin: 20px 50px 10px 30px;
 }
 
 .principal-div nav img{
     width: 20px;
+    margin: 20px 50px 10px 50px;
 }
 
-.principal-div nav ul {
-    list-style: none;             
+.nav-list {
+    list-style: none;   
+    display: none;          
 }
 
 .principal-div nav ul li {
@@ -296,46 +300,3 @@ body {
     padding: 50px 0px;
 }
 
-@media screen and (min-width: 480px) {
-    .principal-div {
-        height: 800px;
-    }
-    .principal-div nav ul {
-        display: flex;           
-    }
-    .enjoy-div {
-        display: flex;
-        justify-content: space-between;
-    }
-    .search-div input {
-        width: 400px;
-    }
-    .social-nav div {
-        display: block;
-        text-align: center;
-    }
-    .social-icon {
-        margin: 40px 0 40px 0;
-    }
-    
-    .circle-content {
-        padding-top: 40px;
-    }
-    .price-div {
-        display: flex;
-        justify-content: flex-end;
-    }
-    .price-div article { 
-        margin: 0px 20px;
-    }
-    .card-container {
-        display: flex;
-        justify-content: space-between;
-    }
-    .second-div nav ul {
-        flex-wrap: nowrap;
-    }
-    .second-div nav {
-        flex-wrap: nowrap;
-    }
-}
